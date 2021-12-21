@@ -1,0 +1,75 @@
+
+.btn-outline-geo-green {
+  color: #63B8A7;
+  border-color: #63B8A7;
+}
+.btn-outline-geo-green:hover {
+  color: #fff;
+  background-color: #63B8A7;
+  border-color: #63B8A7;
+}
+.btn-check:focus + .btn-outline-geo-green, .btn-outline-geo-green:focus {
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+}
+.btn-check:checked + .btn-outline-geo-green, .btn-check:active + .btn-outline-geo-green, .btn-outline-geo-green:active, .btn-outline-geo-green.active, .btn-outline-geo-green.dropdown-toggle.show {
+  color: #fff;
+  background-color: #63B8A7;
+  border-color: #63B8A7;
+}
+.btn-check:checked + .btn-outline-geo-green:focus, .btn-check:active + .btn-outline-geo-green:focus, .btn-outline-geo-green:active:focus, .btn-outline-geo-green.active:focus, .btn-outline-geo-green.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+}
+.btn-outline-geo-green:disabled, .btn-outline-geo-green.disabled {
+  color: #63B8A7;
+  background-color: transparent;
+}
+
+
+.btn-geo-green {
+  color: #fff;
+  background-color: #63B8A7;
+  border-color: #63B8A7;
+}
+.btn-geo-green:hover {
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
+}
+.btn-check:focus + .btn-geo-green, .btn-geo-green:focus {
+  color: #fff;
+  background-color: #157347;
+  border-color: #146c43;
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.btn-check:checked + .btn-geo-green, .btn-check:active + .btn-geo-green, .btn-geo-green:active, .btn-geo-green.active, .show > .btn-geo-green.dropdown-toggle {
+  color: #fff;
+  background-color: #146c43;
+  border-color: #13653f;
+}
+.btn-check:checked + .btn-geo-green:focus, .btn-check:active + .btn-geo-green:focus, .btn-geo-green:active:focus, .btn-geo-green.active:focus, .show > .btn-geo-green.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+.btn-geo-green:disabled, .btn-geo-green.disabled {
+  color: #fff;
+  background-color: #63B8A7;
+  border-color: #63B8A7;
+}
+
+.rounded-4 {
+  border-radius: 0.4rem !important;
+}
+.rounded-5 {
+  border-radius: 2rem !important;
+}
+
+#hero {
+  min-height: 500px;
+}
+
+.bg-darkgrey{
+  background-color: #FAF4F4;
+}
+
+.shadow-c {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
